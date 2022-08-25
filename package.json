@@ -10,8 +10,10 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "link": "^1.5.1",
     "react": "18.0.0",
-    "react-native": "0.69.4"
+    "react-native": "^0.69.4",
+    "react-native-vector-icons": "^9.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -20,6 +22,7 @@
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.69.3",
+    "@types/react-native-vector-icons": "^6.4.11",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
@@ -29,6 +32,11 @@
     "metro-react-native-babel-preset": "^0.70.3",
     "react-test-renderer": "18.0.0",
     "typescript": "^4.4.4"
+  },
+  "rnpm": {
+    "assets": [
+      "resources/fonts"
+    ]
   },
   "jest": {
     "preset": "react-native",
